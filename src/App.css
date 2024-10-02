@@ -1,0 +1,50 @@
+body {
+  background-image: url('./images/Wallpaper.png');  /* Path to your background image */
+  background-size: cover;      /* Ensure the image covers the entire area */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  height: 100vh;               /* Ensure the background covers the full viewport */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.game {
+  padding-top: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #d53761;
+  text-align: center;  /* This centers the text horizontally */
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  background: rgb(115, 117, 249);
+  border: 1px solid #0b00db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  /* This centers the text horizontally */
+
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
